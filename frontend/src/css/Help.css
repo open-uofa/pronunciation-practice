@@ -1,0 +1,16 @@
+.help {
+    margin-left: 1.5%;
+    margin-right: 1.5%;
+}
+
+.text {
+    font-size: 1.3rem;
+    font-family: Inter;
+    line-height: auto;
+    color: #000000;
+}
+
+.title {
+    font-size: 2.5rem;
+    text-align: left;
+}

@@ -1,0 +1,80 @@
+.bg {
+  background-color: #C7E8CA;
+}
+.title {
+  text-align: left;
+  vertical-align: top;
+  font-size: 45px;
+  margin-top: 50px;
+  margin-left: 20px;
+  font-family: Inter;
+  line-height: auto;
+  color: black;
+}
+
+.welcome-msg {
+  text-align: left;
+  vertical-align: top;
+  font-size: 34px;
+  margin-top: 30px;
+  margin-left: 20px;
+  margin-bottom: 50px;
+  font-family: Inter;
+  line-height: auto;
+  color: black;
+}
+
+.lesson-tab {
+  min-height: 100%;
+  border: 1px solid black;
+  margin-top: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 90%;
+  padding: 10px;
+}
+  
+  .chapters-box {
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  
+  .chapter {
+    height: 250px;
+    width: 250px;
+    background-color: rgba(255, 229, 89, 0.8500000238418579);
+    border: 1px solid black;
+    margin: 40px;
+    cursor: pointer
+}
+
+  .chapter:hover {
+    background-color: rgba(24, 125, 56, 0.786);
+  }
+
+.chapters-box > div {
+    flex-basis: calc(25%-40px)
+}
+
+.module-text {
+  text-align: left;
+  font-size: 32px;
+  font-family: Inter;
+  line-height: auto;
+  color: black;
+  margin-left: 20px;
+  margin-top: 20px;
+}
+
+.chapter-name {
+  text-align: center;
+  vertical-align: middle;
+  font-size: 26px;
+  font-family: Inter;
+  line-height: auto;
+  color: black;
+}
